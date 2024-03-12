@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b05e4d181f.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Flores Gaby's</title>
+</head>
+
+<body>
+
+    <!-- Inicio: Header -->
+    <header class="container-fluid"  >
+        <div id="menu" class="row align-items-center">
+            <div class="col-6 col-md-3">
+                <a href="#inicio"><img src="./imagenes/logo.jpg" alt="logorosa" style="width: 100%; max-width: 100px;"></a>
+            </div>
+            <div class="col-6 col-md-9">
+                <img src="./imagenes/floresmovimiento.gif" alt="gifHeader" style="width: 100%; max-height: 100px; object-fit:cover;">
+            </div>
+
+            <!-- Inicio: Opciones del menú-->
+            <nav class="col-12 mt-3 mt-md-0">
+                <ul class="d-flex justify-content-end">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#rosas">Catálogo</a></li>
+                    <li><a href="#elaboracion">Elaboración</a></li>
+                    <li><a href="#ubicacion">Ubicación</a></li>
+                </ul>
+            </nav>
+            <!-- Fin: Opciones del menú-->
+        </div>
+    </header>
+    <!-- Fin: Header -->
+    
+
+    <main>
+        <div id="inicio" style="margin-top: 0px; padding-top: 100px;"></div>
+        <!-- Inicio: Carrusel-->
+        <div class="flores-momentos contenedor">
+            <div class="contenedor-titulo-controles">
+                <h3>"Flores eternas para momentos eternos."</h3>
+            </div>
+            <div class="contenedor-principal">
+                <button id="flecha-izquierda-1" class="flecha-izquierda"><i class="fas fa-angle-left"></i> </button>
+                <div class="contenedor-carousel-1">
+                    <div class="carousel">
+                        <div class="flores-1"><img src="./imagenes/momento1.jpeg" alt="Momento uno"></div>
+                        <div class="flores-1"><img src="./imagenes/momento3.jpg" alt="Momento tres"></div>
+                        <div class="flores-1"><img src="./imagenes/momento4.jpg" alt="Momento cuatro"></div>
+                        <div class="flores-1"><img src="./imagenes/momento5.jpg" alt="Momento cinco"></div>
+                        <div class="flores-1"><img src="./imagenes/momento6.jpg" alt="Momento seis"></div>
+                        <div class="flores-1"><img src="./imagenes/momento7.jpg" alt="Momento siete"></div>
+                        <div class="flores-1"><img src="./imagenes/momento8.jpg" alt="Momento ocho"></div>
+                        <div class="flores-1"><img src="./imagenes/momento9.jpg" alt="Momento uno"></div>
+                        <div class="flores-1"><img src="./imagenes/momento10.jpg" alt="Momento uno"></div>
+                    </div>
+                </div>
+
+                <button id="flecha-derecha-1" class="flecha-derecha"> <i class="fas fa-angle-right"></i></button>
+
+            </div>
+        </div>
+        <!-- Fin: Carrusel-->
+
+        <h1 id="rosas">Catálogo de Rosas</h1>
+        <section class="product-list">
+            <div class="product">
+                <img src="imagenes/rosas1.jpg" alt="Producto 1">
+                <h2>Rosas rosas</h2>
+                <p>Dose rosas.</p>
+                <span class="price">$250.00</span>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalLive">
+                    Comprar
+                </button>
+            </div>
+            <div class="product">
+                <img src="./imagenes/rosas2.jpeg" alt="Producto 2">
+                <h2>Rosas azules</h2>
+                <p>Cien rosas.</p>
+                <span class="price">$950.00</span>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalLive">
+                    Comprar
+                </button>
+            </div>
+            <div class="product">
+                <img src="imagenes/rosas3.jpg" alt="Producto 3">
+                <h2>Rosas rojas</h2>
+                <p>cincuenta rosas.</p>
+                <span class="price">$580.00</span>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalLive">
+                    Comprar
+                </button>
+            </div>
+            <div class="product">
+                <img src="./imagenes/rosas4.jpeg" alt="Producto 4">
+                <h2>Rosas amarillas</h2>
+                <p>Quince rosas.</p>
+                <span class="price">$300.00</span>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalLive">
+                    Comprar
+                </button>
+            </div>
+            <div class="product">
+                <img src="./imagenes/rosas5.webp" alt="Producto 5">
+                <h2>Rosas naranjas</h2>
+                <p>50 Rosas.</p>
+                <span class="price">$240..00</span>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalLive">
+                    Comprar
+                </button>
+            </div>
+            <div class="product">
+                <img src="./imagenes/rojo.jpg" alt="Producto 6">
+                <h2>Tulipánes.</h2>
+                <p>Regalo.</p>
+                <span class="price">$534.00</span>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalLive">
+                    Comprar
+                </button>
+            </div>
+            <!-- Agrega más productos según sea necesario -->
+        </section>
+
+        <!--Inicio sección Elaboración-->
+        <h1 id="elaboracion">Elaboración</h1>
+        <div style="text-align: center;">
+            <iframe width="1200" style="border:0; max-width: 100%;height: auto;"
+                src="https://www.youtube.com/embed/0dLFBQ4r5MM?si=eKKjCPRcqSdhQdfl" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+            </iframe>
+        </div>
+        <!--Fin sección Elaboración-->
+
+        <!--Inicio sección Ubicación-->
+        <h1 id="ubicacion">Ubicación</h1>
+        <div style="text-align: center;">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60209.984851633075!2d-99.16515413046874!3d19.4070453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1feeb2b66a2a7%3A0x851774b47ce152e!2sFLORERIA%20LISSETTE!5e0!3m2!1ses-419!2smx!4v1709783020211!5m2!1ses-419!2smx"
+                width="1200" style="border:0; max-width: 100%;height: auto;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+        <!--Fin sección Ubicación-->
+    </main>
+
+    <!--Inicio pie de página-->
+    <footer>
+        <div class="caja">
+            <p style="padding-left: 30px;">Contáctanos al 733 903 1730</p>
+            <nav>
+                <ul>
+                    <a href="https://web.whatsapp.com/" target="_blank"><img src="./imagenes/whatsapp.png"
+                            style="width: 40px;" alt="whatsapp"></a>
+                    <a href="https://www.facebook.com/" target="_blank"><img src="./imagenes/fabebook.png"
+                            style="width: 40px; height: 40px;" alt="fabebook"></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="./imagenes/instagram.png"
+                            style="width: 40px; height: 40px;" alt="instagram"></a>
+                </ul>
+
+            </nav>
+        </div>
+    </footer>
+    <!--Fin pie de página-->
+
+    <!-- Inicio: Ventana modal-->
+    <div class="modal fade" id="exampleModalLive" tabindex="-1" aria-labelledby="exampleModalLiveLabel"
+        style="display: none;" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <p class="modal-title fs-5" id="exampleModalLiveLabel">Comprar producto</p>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="./imagenes/pasarela.png" alt="pasarela" style="width: 100%;">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">Aceptar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fin: Ventana modal-->
+
+    <script src="./index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+
+</html>
